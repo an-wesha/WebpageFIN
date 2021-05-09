@@ -21,9 +21,11 @@ We took help from the following sources to develop and style our webpages:
 
 
 We downloaded the images and videos for our website from the following sources:
-Images:
+
+#### Images:
 1. https://www.freepik.com/free-photos-vectors/boy
 2. https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fexecutivesecretary.com%2Fthe-effect-of-hobbies-on-your-personal-and-professional-life%2F&psig=AOvVaw3ZMOK7k43ZbrsTW2SCrtcS&ust=1620622511065000&source=images&cd=vfe&ved=2ahUKEwj21vu557vwAhWJSSsKHYPwDuwQr4kDegUIARDcAQ
 3. https://img.17qq.com/images/mfgwshsy.jpeg
-Videos:
+
+#### Videos:
 1. https://www.pexels.com/videos/
