@@ -1,0 +1,32 @@
+header {
+    padding: 50px;
+    background-color: rgb(223, 135, 218);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo {
+    width: 150px;
+    height:100px;
+    content: url(hobbies.jpg);
+}
+
+.logoHeader {
+    height: 100px;
+    vertical-align: middle;
+    text-align: center; 
+}
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+#videos{
+    text-align:center;
+    margin:50px auto; 
+}
+#videos a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+
+

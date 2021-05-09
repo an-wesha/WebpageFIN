@@ -1,0 +1,111 @@
+.formpart
+{
+	width: 35rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 2rem 2rem 4rem;
+}
+h2{
+	color: #1f2e86;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+label
+{
+	font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+    display: block;
+    margin: 0.5rem 0;
+}
+.inputbox
+{
+	width: 26rem;
+    padding: 0.5rem;
+    border: 2px solid #0c0000;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.options
+{
+	width: 25rem;
+	padding: 1rem;
+    border: 2px solid #000000;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+.eachoption
+{
+	display: inline-block;
+    width: 49%;
+}
+.eachoption span
+{
+	vertical-align: top;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+input[type=checkbox] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+/*Styling checkbox agreement line*/
+input.agree{
+	width: 0.8rem;
+    height: 0.8rem;
+}
+label.agree
+{
+	font-size: 0.9rem;
+    display: inline-block;
+}
+
+/*Styling the privacy policy and terms and condition line*/
+.privacy_policy
+{
+	font-size: 0.9rem;
+    color: #000000;
+    font-weight: 400;
+    max-width: 28rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.privacy_policy span{
+	color: #3b1fb4;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/*Styling submit btn */
+.submitbtn
+{
+	width: 13rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #3F51B5;
+    border: 0;
+    outline: 0;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/*Styling submit button hover state*/
+.submitbtn:hover
+{
+	transform: scale(1.02) translateY(-2px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+/*Form styling complted*/

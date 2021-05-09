@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style/FIN_form_style.css">
+</head>
+<style>
+    body{
+        background-image: url(style/form_bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        vertical-align: middle;
+        height: 100%;
+        margin:0 auto; max-width: 500px;
+    }
+</style>
+<body>
+    <div class="formpart">
+        <form>
+            <h2>Signup and join the community</h2>
+            <p>Required fields are followed by *</p>
+            <!-- For Full Name -->
+            <label for="name">Full Name*</label>
+            <input class="inputbox" name="name" type="text" class="name" autocomplete="off" required>
+
+            <!-- For user email  -->
+            <label for="email">Email*</label>
+            <input class="inputbox" type="email" class="email" name="email" autocomplete="off" required>
+
+            <!-- For user password -->
+            <label for="pwd">Create Password*</label>
+            <input class="inputbox" type="password" class="pwd" name="pwd" autocomplete="off" required>
+
+            <label for="pwd">Confirm Password*</label>
+            <input class="inputbox" type="password" class="pwd" name="pwd" autocomplete="off" required>
+
+            <!-- For user phone number  -->
+            <label for="phonenumber">Phone*</label>
+            <input class="inputbox" type="phonenumber" class="phonenumber" name="phonenumber" autocomplete="off" required>
+
+
+
+            <!-- For user age -->
+            <label for="age">DOB*</label>
+            <input class="inputbox" type="date" class="age" name="age" autocomplete="off" required>
+
+            <!-- For user gender  -->
+            <label for="gender">Gender*</label>
+            <div class="options">
+                <div class="eachoption">
+                    <input type="radio" name="status" required>
+                    <span>Male</span>
+                </div>
+                <div class="eachoption">
+                    <input type="radio" name="status" required>
+                    <span>Female</span>
+                </div>
+                <div class="eachoption">
+                    <input type="radio" name="status" required>
+                    <span>Other</span>
+                </div>
+                <div class="eachoption">
+                    <input type="radio" name="status" required>
+                    <span>Prefer not to say</span>
+                </div>
+            </div>
+
+            
+
+            <!-- For user Profession -->
+            <label for="profession">Profession*</label>
+            <select name="profession" id="profession">
+                <option value="doctor">Doctor</option>
+                <option value="psychiatrist">Psychiatrist</option>
+                <option value="psychologist">Psychologist</option>
+                <option value="nurse">Nurse</option>
+                <option value="health">Health Worker</option>
+                <option value="Teacher">School Teacher</option>
+                <option value="Professor">Professor</option>
+                <option value="govt">Govt official</option>
+                <option value="speaker">Motivational Speaker</option>
+                <option value="other">Other</option>
+
+              </select>
+
+            <!-- For user interest -->
+            <label for="interest">Interest</label>
+            <input class="inputbox" type="interest" class="interest" name="interest" autocomplete="off">
+
+            <!-- For selecting whether he/she wants to join as Mentor or Mentee -->
+            <label for="course">Select whether you want to join as Mentor or Mentee*</label>
+            <div class="options">
+                <div class="eachoption">
+                    <input type="checkbox" required>
+                    <span>Mentor</span>
+                </div>
+                <div class="eachoption">
+                    <input type="checkbox" required>
+                    <span>Mentee</span>
+                </div>
+            </div>
+
+            
+            <label for="purpose">Would you like to tell us what brought you here?<p>(You need not disclose if you don't want to)</p></label>
+            <input class="inputbox" type="text" class="purpose" name="purpose" autocomplete="off"> <br>
+
+
+            <!-- For Agree line and checkbox -->
+            <input type="checkbox" class="agree" required>
+            <label for="agree" class="agree">I want to receive promotion mails about exciting developments and events!</label>
+
+            <!-- For Privacy Policy Line -->
+            <label class="privacy_policy">By clicking the submit button, you agree to our <span>Terms & Conditions</span> and <span>Privacy Policy</span>.</label>
+
+
+            <!-- For Submit Button-->
+            <button class="submitbtn">Submit</button>
+
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
